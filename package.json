@@ -1,0 +1,41 @@
+{
+  "name": "SOE COFFEE master skill",
+  "version": "1.0.0",
+  "description": "SOE COFFEE (八平方咖啡) 品牌助手 - 专业咖啡知识库与品牌咨询",
+  "author": "魏凌鹏 (S.O.E COFFEE)",
+  "license": "Private",
+  "keywords": [
+    "咖啡",
+    "coffee",
+    "S.O.E",
+    "八平方",
+    "CREMA",
+    "咖啡师",
+    "手冲",
+    "精品咖啡",
+    "specialty coffee",
+    "SCA",
+    "Q-Grader",
+    "咖啡培训",
+    "杯测",
+    "烘焙"
+  ],
+  "easyclaw": {
+    "skill": true,
+    "triggers": [
+      "咖啡",
+      "coffee",
+      "S.O.E",
+      "八平方",
+      "CREMA",
+      "手冲",
+      "意式",
+      "拉花",
+      "杯测",
+      "烘焙",
+      "Q-Grader",
+      "咖啡豆推荐",
+      "咖啡培训"
+    ]
+  }
+}
