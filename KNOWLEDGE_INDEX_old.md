@@ -1,64 +1,9 @@
 # SOE COFFEE 知识库索引
 
-> 本索引包含 86 个专业咖啡文件（含7个世界咖啡赛事规则）
+> 本索引包含 79 个专业咖啡培训文件
 > 知识库路径: `knowledge-base/`
 
 ## 📚 知识库结构
-
-### 总览
-
-- **World Coffee Championships 2026（世界咖啡赛事规则）**: 7 个文件 ⭐ NEW
-- **-SCA+CSP+Course+Catalog-TCHN.pdf**: 1 个文件
-- **AST Handbook_2025 Edition_OCT 2025_SCHN.pdf**: 1 个文件
-- **Core Equipment & Supply Lists**: 5 个文件
-- **barista**: 8 个文件
-- **brewing**: 14 个文件
-- **cva**: 4 个文件
-- **introChinese**: 2 个文件
-- **introtocuppingSimplified Chinese**: 3 个文件
-- **qgrader**: 5 个文件
-- **roasting**: 13 个文件
-- **sensory**: 9 个文件
-- **water**: 8 个文件
-- **水质**: 6 个文件
-
-## 🔍 分类索引
-
-### World Coffee Championships 2026（世界咖啡赛事规则）⭐ NEW
-
-**关键词**: WBC, 世界咖啡师大赛, World Barista Championship, 咖啡比赛, 咖啡竞赛, 冲煮大赛, Brewers Cup, 杯测大赛, WCTC, 拉花, Latte Art, 烘焙大赛, Roasting, 创意咖啡, Coffee in Good Spirits, Cezve, Ibrik, 土耳其咖啡
-
-**赛事规则文件:**
-
-1. **世界咖啡师大赛 (WBC - World Barista Championship)**
-   - 文件: `world-coffee-championships-2026/2025+World+Barista+Championship+Official+Rules+and+Regulations(1).pdf`
-   - 关键词: 咖啡师, 意式咖啡, Espresso, Cappuccino, Signature Drink, 创意饮品, 感官评分
-   
-2. **世界冲煮大赛 (World Brewers Cup)**
-   - 文件: `world-coffee-championships-2026/2026+World+Brewers+Cup+Rules+and+Regulations(1).pdf`
-   - 关键词: 手冲, 冲煮, Pour Over, 滤杯, V60, 萃取, 黑咖啡
-   
-3. **世界杯测大赛 (WCTC - World Coffee Tasters Championship)**
-   - 文件: `world-coffee-championships-2026/2026+WCTC+Rules+and+Regulations(1).pdf`
-   - 关键词: 杯测, Cupping, 感官, 品鉴, 风味识别, Tasting
-   
-4. **世界咖啡烘焙大赛 (World Coffee Roasting Championship)**
-   - 文件: `world-coffee-championships-2026/2026+World+Coffee+Roasting+Championship+Rules+and+Regulations+(1).pdf`
-   - 关键词: 烘焙, Roasting, 烘豆, 生豆, 烘焙曲线, 风味开发
-   
-5. **世界拉花艺术大赛 (World Latte Art Championship)**
-   - 文件: `world-coffee-championships-2026/2026+World+Latte+Art+Championship+Rules+and+Regulations.pdf`
-   - 关键词: 拉花, Latte Art, 奶泡, 奶咖艺术, 图案设计
-   
-6. **世界创意咖啡大赛 (World Coffee in Good Spirits)**
-   - 文件: `world-coffee-championships-2026/2026+World+Coffee+in+Good+Spirits+Rules+and+Regulations+(1)(1).pdf`
-   - 关键词: 创意咖啡, 酒精咖啡, Coffee Cocktail, 调酒, 烈酒咖啡
-   
-7. **土耳其咖啡大赛 (Cezve/Ibrik Championship)**
-   - 文件: `world-coffee-championships-2026/2026+Cezve-Ibrik+Championship+Rules+and+Regulations(1).pdf`
-   - 关键词: 土耳其咖啡, Cezve, Ibrik, Turkish Coffee, 传统咖啡
-
----
 
 ### 总览
 
