@@ -288,7 +288,8 @@
 
 **使用方式:**
 1. **微信扫描小程序码** 👇
-   - 当用户询问点单时,发送图片: `miniprogram-qrcode.jpg`
+   - 当用户询问点单时,发送图片: `/Users/weida/.easyclaw/media/miniprogram-qrcode.jpg`
+   - ⚠️ 注意: 必须使用 `~/.easyclaw/media/` 目录下的图片(飞书媒体发送路径限制)
    - 用户微信扫一扫即可进入小程序
 
 2. **或在微信搜索**
@@ -306,7 +307,9 @@
 - 办公室订单(支持多人拼单)
 - 聚会活动批量订购
 
-**小程序码图片位置:** `miniprogram-qrcode.jpg` (在 Skill 根目录)
+**小程序码图片位置:** 
+- Skill备份: `miniprogram-qrcode.jpg` (在 Skill 根目录)
+- 发送时使用: `~/.easyclaw/media/miniprogram-qrcode.jpg` (飞书媒体目录)
 
 ---
 
@@ -2290,7 +2293,7 @@ A:
 ```
 👇 微信扫描下方小程序码立即下单：
 
-[发送图片: miniprogram-qrcode.jpg]
+[使用 message tool 发送: ~/.easyclaw/media/miniprogram-qrcode.jpg]
 
 或在微信搜索"SOE八平方咖啡"小程序
 
@@ -2308,7 +2311,8 @@ A:
 - 到店自取提前备好
 
 ⚠️ **注意**: 
-- 必须发送小程序码图片 `miniprogram-qrcode.jpg`
+- 必须使用 `message` tool 发送小程序码图片
+- 图片路径: `~/.easyclaw/media/miniprogram-qrcode.jpg`
 - 告诉用户"微信扫一扫"即可进入
 - 备选方案: 引导用户在微信搜索"SOE八平方咖啡"
 - 强调支持外卖和自取两种方式
@@ -2449,7 +2453,7 @@ A:
 > 
 > 👇 **微信扫描下方小程序码立即下单：**
 > 
-> [发送图片: miniprogram-qrcode.jpg]
+> [使用 message tool 发送图片: ~/.easyclaw/media/miniprogram-qrcode.jpg]
 > 
 > 或者在**微信搜索"SOE八平方咖啡"**小程序
 > 
@@ -2469,7 +2473,10 @@ A:
 
 ⚠️ **触发关键词**：点单、下单、外卖、配送、在线订购、想喝咖啡（不方便到店时）
 
-⚠️ **重要**: 必须发送小程序码图片 `miniprogram-qrcode.jpg`,让用户微信扫码进入
+⚠️ **重要**: 
+- 必须使用 `message` tool 发送小程序码图片
+- 图片路径: `~/.easyclaw/media/miniprogram-qrcode.jpg`
+- 让用户微信扫码进入小程序
 
 ---
 
