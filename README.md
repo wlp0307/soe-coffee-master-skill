@@ -14,8 +14,28 @@ S.O.E COFFEE (八平方咖啡) 官方咖啡助理工具，由创始人魏凌鹏�
 
 ## 📥 安装方法
 
-### 方法1：直接下载
+### ⭐ 方法1：AI 自动安装（最简单，推荐）
 
+直接告诉 AI：
+```
+"帮我从 GitHub 安装 SOE Coffee Master Skill"
+```
+
+AI 会自动完成下载、注册和配置。安装完成后，重启 EasyClaw 即可使用。
+
+---
+
+### 方法2：手动安装
+
+#### Step 1: 下载 Skill
+
+**选项 A - Git Clone（推荐）**：
+```bash
+cd ~/.easyclaw/skills/
+git clone https://github.com/wlp0307/soe-coffee-master-skill.git "SOE COFFEE master skill"
+```
+
+**选项 B - 直接下载**：
 1. 点击页面上方绿色按钮 **"Code"** → **"Download ZIP"**
 2. 解压文件，重命名文件夹为 `SOE COFFEE master skill`
 3. 移动到 EasyClaw Skills 目录：
@@ -26,21 +46,38 @@ S.O.E COFFEE (八平方咖啡) 官方咖啡助理工具，由创始人魏凌鹏�
    # Windows
    # 复制到 C:\Users\你的用户名\.easyclaw\skills\
    ```
-4. 重启 EasyClaw
 
-### 方法2：Git Clone
+#### Step 2: 注册 Skill（必需）
 
+运行注册脚本：
 ```bash
-cd ~/.easyclaw/skills/
-git clone https://github.com/wlp0307/soe-coffee-master-skill.git "SOE COFFEE master skill"
+python3 /Applications/easyclaw.app/Contents/Resources/cfmind/skills/create-skill/scripts/easyclaw_register_skill.py \
+  ~/.easyclaw/skills/"SOE COFFEE master skill" \
+  --workspace ~/.easyclaw/workspace
 ```
 
-### 更新已安装版本
+或者告诉 AI：
+```
+"帮我注册 SOE Coffee Master Skill"
+```
+
+#### Step 3: 重启 EasyClaw
+
+注册完成后，重启 EasyClaw 或告诉 AI：
+```
+"重新加载 skills"
+```
+
+---
+
+### 🔄 更新已安装版本
 
 ```bash
 cd ~/.easyclaw/skills/SOE\ COFFEE\ master\ skill
 git pull origin main
 ```
+
+更新后建议重启 EasyClaw 以加载最新内容。
 
 ---
 
@@ -81,8 +118,14 @@ git pull origin main
 
 ## 🆘 常见问题
 
+### Q: 安装后 AI 不回答咖啡问题怎么办？
+A: 可能是注册步骤未完成：
+1. 确认 SKILL.md 开头有 YAML frontmatter（`---` 包围的部分）
+2. 运行注册脚本（见上方 Step 2）
+3. 重启 EasyClaw
+
 ### Q: 下载很慢怎么办？
-A: GitHub 在国内访问较慢，建议使用科学上网工具。
+A: GitHub 在国内访问较慢，建议使用科学上网工具，或直接告诉 AI 帮您安装。
 
 ### Q: 找不到 .easyclaw 文件夹？
 A: 这是隐藏文件夹：
@@ -90,7 +133,10 @@ A: 这是隐藏文件夹：
 - **Windows**: 文件资源管理器 → 查看 → 勾选"显示隐藏的项目"
 
 ### Q: 文件夹名称不对？
-A: GitHub 下载会自动加后缀，需手动重命名为 `SOE COFFEE master skill`
+A: GitHub 下载会自动加后缀，需手动重命名为 `SOE COFFEE master skill`（注意空格）
+
+### Q: 注册脚本找不到怎么办？
+A: 确认您已安装 EasyClaw。如果路径不同，可以告诉 AI："帮我注册 SOE Coffee Master Skill"
 
 ---
 
